@@ -94,7 +94,11 @@ class Render(object):
         ax.text(self.system.RIS.coordinate[0],self.system.RIS.coordinate[1],self.system.RIS.coordinate[2], \
         'RIS', size=15, zorder=1, color='g') 
 
+<<<<<<< HEAD
+        for user in self.system.UE_list:
+=======
         for user in self.system.user_list:
+>>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
             ax.scatter(
             user.coordinate[0],\
             user.coordinate[1],\
@@ -103,6 +107,13 @@ class Render(object):
             )
             text = 'user_'+str(user.index) + '\n'\
             + 'noise power(dB)    = ' + str(user.noise_power) + '\n' \
+<<<<<<< HEAD
+            + 'capacity          = ' + str(user.capacity) + '\n'
+            
+            ax.text(user.coordinate[0],user.coordinate[1],user.coordinate[2], \
+            text, size=10, zorder=1, color='b') 
+
+=======
             + 'capacity          = ' + str(user.capacity) + '\n'\
             + 'secure_capacity   = ' + str(user.secure_capacity)
             
@@ -118,6 +129,7 @@ class Render(object):
             ax.text(attacker.coordinate[0],attacker.coordinate[1],attacker.coordinate[2], \
             'attacker_'+str(attacker.index) + '\n'\
             +'capacities:' + str(attacker.capacity), size=10, zorder=1, color='y') 
+>>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
 
     def plot_channels(self, ax):
         """
@@ -125,12 +137,19 @@ class Render(object):
         """
         for channel in self.system.h_R_k:
             self.plot_one_channel(ax, channel, "b")
+<<<<<<< HEAD
+
+        for channel in self.system.h_U_k:
+            self.plot_one_channel(ax, channel, "b")
+
+=======
         for channel in self.system.h_R_p:
             self.plot_one_channel(ax, channel, "y")
         for channel in self.system.h_U_k:
             self.plot_one_channel(ax, channel, "b")
         for channel in self.system.h_U_p:
             self.plot_one_channel(ax, channel, "y")
+>>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
             
         self.plot_one_channel(ax, self.system.H_UR, "r")
         

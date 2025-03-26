@@ -17,7 +17,11 @@ class DataManager(object):
         self.time_stemp = time.strftime('/%Y-%m-%d %H_%M_%S',time.localtime(time.time()))
         self.store_path = store_path + self.time_stemp 
         os.makedirs(self.store_path) 
+<<<<<<< HEAD
+
+=======
         # self.writer = pd.ExcelWriter(self.store_path + '/simulation_result.xlsx', engine='openpyxl')  # pylint: disable=abstract-class-instantiated 
+>>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
         self.simulation_result_dic = {}
         self.init_format()
 
