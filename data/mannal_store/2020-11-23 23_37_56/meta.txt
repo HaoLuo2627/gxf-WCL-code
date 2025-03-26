@@ -1,0 +1,3 @@
+freq: 28e9
+ULA_ant 16
+UPA_ant 36

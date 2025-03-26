@@ -1,0 +1,3 @@
+2e8GHz
+UAV_ant 8
+RIS ant 36

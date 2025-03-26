@@ -1,0 +1,174 @@
+% Encoding: UTF-8
+
+@Article{IRS-1,
+  author    = {Wu, Qingqing and Zhang, Rui},
+  title     = {Intelligent reflecting surface enhanced wireless network via joint active and passive beamforming},
+  journal   = {IEEE Trans. Wireless Commun.},
+  year      = {2019},
+  volume    = {18},
+  number    = {11},
+  pages     = {5394--5409},
+  month     = nov,
+  publisher = {IEEE},
+}
+
+@Article{IRS-3,
+  author  = {S. {Li} and B. {Duo} and X. {Yuan} and Y. {Liang} and M. {Di Renzo}},
+  title   = {Reconfigurable Intelligent Surface Assisted {UAV} Communication: Joint Trajectory Design and Passive Beamforming},
+  journal = {IEEE Wireless Commun. Lett.},
+  year    = {2020},
+  pages   = {1-1},
+}
+
+@Article{IRS-2,
+	author    = {Wu, Qingqing and Zhang, Rui},
+	title     = {Towards smart and reconfigurable environment: Intelligent reflecting surface aided wireless network},
+	journal   = {IEEE Commun. Mag.},
+	year      = {2019},
+	volume    = {58},
+	number    = {1},
+	pages     = {106 - 112},
+	month     = jan,
+	publisher = {IEEE},
+}
+
+@Article{IRS-10,
+  author    = {Han, Yu and Tang, Wankai and Jin, Shi and Wen, Chao-Kai and Ma, Xiaoli},
+  title     = {Large intelligent surface-assisted wireless communication exploiting statistical {CSI}},
+  journal   = {IEEE Trans. Veh. Technol.},
+  year      = {2019},
+  volume    = {68},
+  number    = {8},
+  pages     = {8238--8242},
+  month     = aug,
+  publisher = {IEEE},
+}
+
+@Article{IRS-A-12,
+  author  = {Q. {Wu} and R. {Zhang}},
+  title   = {Joint Active and Passive Beamforming Optimization for Intelligent Reflecting Surface Assisted {SWIPT under QoS} Constraints},
+  journal = {IEEE J. Sel. Areas Commun.},
+  year    = {to appear, 2020},
+}
+
+@InProceedings{IRS-A-9,
+  author    = {D. {Xu} and X. {Yu} and Y. {Sun} and D. W. K. {Ng} and R. {Schober}},
+  title     = {Resource Allocation for Secure IRS-Assisted Multiuser {MISO} Systems},
+  booktitle = {2019 IEEE Globecom Workshops (GC Wkshps)},
+  year      = {2019},
+  pages     = {1-6},
+  address   = {Waikoloa, HI, USA, USA},
+  month     = dec,
+}
+
+@Article{IRS-12,
+  author  = {Y. {Yang} and S. {Zhang} and R. {Zhang}},
+  title   = {{IRS}-Enhanced {OFDMA}: Joint Resource Allocation and Passive Beamforming Optimization},
+  journal = {IEEE Wireless Commun. Lett.},
+  year    = {2020},
+  pages   = {1-1},
+}
+
+@Article{IOVRM-6,
+  author    = {Liang, Le and Xie, Shijie and Li, Geoffrey Ye and Ding, Zhi and Yu, Xingxing},
+  title     = {Graph-based resource sharing in vehicular communication},
+  journal   = {IEEE Trans. Wireless Commun.},
+  year      = {2018},
+  volume    = {17},
+  number    = {7},
+  pages     = {4579--4592},
+  month     = {Jul.},
+  publisher = {IEEE},
+}
+
+@Article{IRS-ARXIV-8-33,
+  author    = {Tran, Le-Nam and Hanif, Muhammad Fainan and Tolli, Antti and Juntti, Markku},
+  title     = {Fast converging algorithm for weighted sum rate maximization in multicell {MISO} downlink},
+  journal   = {IEEE Signal Process. Lett.},
+  year      = {2012},
+  volume    = {19},
+  number    = {12},
+  pages     = {872--875},
+  month     = dec,
+  publisher = {IEEE},
+}
+
+@Book{book-Convex,
+  title     = {Convex Optimization},
+  publisher = {Cambridge university press},
+  year      = {2004},
+  author    = {Boyd, Stephen and Vandenberghe, Lieven},
+}
+
+@Article{3GPP,
+  journal={Technical Specification Group Radio Access Network: {Study} on {LTE} Based {V2X} Services; (Release 14)},
+  month={document TR 36.885 V2.0.0, 3GPP, Jun.},
+  year={2016}
+}
+
+@Article{37,
+  title={{WINNER II} channel models},
+  author={Kyosti, Pekka},
+  journal={IST, Tech. Rep. IST-4-027756 WINNER II D1. 1.2 V1. 2},
+  month={Sept.},
+  year={2007}
+}
+
+@Article{Simulation,
+  journal  = {{WF on SLS Evaluation Assumptions for eV2X}},
+  year   = {2016},
+  month  = {document R1-165704, 3GPP TSG RAN WG1 Meeting, May},
+}
+
+@Article{IOVRM-28,
+  author    = {Guo, Chongtao and Liang, Le and Li, Geoffrey Ye},
+  title     = {Resource allocation for low-latency vehicular communications: {An} effective capacity perspective},
+  journal   = {IEEE J. Sel. Areas Commun.},
+  year      = {2019},
+  volume    = {37},
+  number    = {4},
+  pages     = {905--917},
+  month     = apr,
+  publisher = {IEEE},
+}
+
+@Article{chen,
+  author  = {Y. {Chen} and Y. {Wang} and M. {Liu} and J. {Zhang} and L. {Jiao}},
+  title   = {Network Slicing Enabled Resource Management for Service-Oriented Ultra-Reliable and Low-Latency Vehicular Networks},
+  journal = {IEEE Trans. Veh. Technol.},
+  year    = {to appear, 2020},
+}
+
+@Article{zhang1,
+  author  = {J. {Zhang} and E. {Björnson} and M. {Matthaiou} and D. W. K. {Ng} and H. {Yang} and D. J. {Love}},
+  title   = {Prospective Multiple Antenna Technologies for Beyond {5G}},
+  journal = {IEEE J. Sel. Areas Commun.},
+  year    = {to appear, 2020},
+}
+
+@Article{zhang2,
+  author  = {J. {Zhang} and H. {Du} and P. {Zhang} and J. {Cheng} and L. {Yang}},
+  title   = {Performance Analysis of {5G} Mobile Relay Systems for High-Speed Trains},
+  journal = {IEEE J. Sel. Areas Commun.},
+  year    = {to appear, 2020},
+}
+
+@Article{zhang3,
+  author  = {J. {Zhang} and L. {Dai} and Z. {He} and S. {Jin} and X. {Li}},
+  title   = {Performance Analysis of Mixed-ADC Massive MIMO Systems Over Rician Fading Channels},
+  journal = {IEEE J. Sel. Areas Commun.},
+  year    = {2017},
+  volume  = {35},
+  number  = {6},
+  pages   = {1327-1338},
+  month   = jun,
+}
+
+@Article{song,
+  author  = {W. {Qi} and B. {Landfeldt} and Q. {Song} and L. {Guo} and A. {Jamalipour}},
+  title   = {Traffic Differentiated Clustering Routing in {DSRC} and {C-V2X} Hybrid Vehicular Networks},
+  journal = {IEEE Trans. Veh. Technol.},
+  year    = {to appear, 2020},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
