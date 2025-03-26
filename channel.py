@@ -37,22 +37,14 @@ class mmWave_channel(object):
             self.sigma = 3
             self.channel_name = 'H_UR'
         elif channel_type == 'UAV_user' or channel_type == 'UAV_attacker':
-<<<<<<< HEAD
             self.n = 3.8
-=======
-            self.n = 3.5
->>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
             self.sigma = 3
             if channel_type =='UAV_user':
                 self.channel_name = 'h_U_k,' + str(self.transmitter.index)
             elif channel_type == 'UAV_attacker':
                 self.channel_name = 'h_U_p,' + str(self.transmitter.index)
         elif channel_type == 'user_UAV' or channel_type == 'attacker_UAV':
-<<<<<<< HEAD
             self.n = 3.8
-=======
-            self.n = 3.5
->>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
             self.sigma = 3
             if channel_type =='user_UAV':
                 self.channel_name = 'h_U_k,' + str(self.transmitter.index)
@@ -60,22 +52,14 @@ class mmWave_channel(object):
                 self.channel_name = 'h_U_p,' + str(self.transmitter.index)
                 
         elif channel_type == 'RIS_user' or channel_type == 'RIS_attacker':
-<<<<<<< HEAD
             self.n = 3.8
-=======
-            self.n = 2.8
->>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
             self.sigma = 3
             if channel_type =='RIS_user':
                 self.channel_name = 'h_R_k,' + str(self.transmitter.index)
             elif channel_type == 'RIS_attacker':
                 self.channel_name = 'h_R_p,' + str(self.transmitter.index)        
         elif channel_type == 'user_RIS' or channel_type == 'attacker_RIS':
-<<<<<<< HEAD
             self.n = 3.8
-=======
-            self.n = 2.8
->>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
             self.sigma = 3
             if channel_type =='user_RIS':
                 self.channel_name = 'h_R_k,' + str(self.transmitter.index)
@@ -113,17 +97,10 @@ class mmWave_channel(object):
         )
 
         # get relevant coordinate transmitter under receiver system
-<<<<<<< HEAD
         t_under_r_car_coor = get_coor_ref(
                                         [-self.receiver.coor_sys[0], self.receiver.coor_sys[1], -self.receiver.coor_sys[2]],
                                         self.transmitter.coordinate - self.receiver.coordinate
                                         )
-=======
-        t_under_r_car_coor = get_coor_ref(\
-        #   remmber to Meet channel direction restrictions
-        [-self.receiver.coor_sys[0], self.receiver.coor_sys[1], -self.receiver.coor_sys[2]],\
-        self.transmitter.coordinate - self.receiver.coordinate)
->>>>>>> ffe98bc78fcde95c811f10b8c9220cac7d875392
         # get relevant spherical_coordinate 
         t_r_r, t_r_theta, t_r_fai = cartesian_coordinate_to_spherical_coordinate(\
         cartesian_coordinate=t_under_r_car_coor\
